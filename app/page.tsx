@@ -42,11 +42,9 @@ const RootPage = () => (
     <GoogleAnalytics pageTitle={NEXT_PUBLIC_SITE_TITLE} />
     <div className={styles.container}>
       <div>
-	<p>Written by <a href="https://github.com/diohabara">diohabara</a></p>
-        <p>
-          easy-notion-blog powered by{' '}
-          <Link href="https://github.com/otoyo/easy-notion-blog">
-            otoyo/easy-notion-blog
+	<p>Written by{' '}
+          <Link href="https://github.com/diohabara">
+            diohabara
           </Link>
         </p>
       </div>
